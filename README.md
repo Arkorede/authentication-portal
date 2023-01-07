@@ -1,6 +1,6 @@
 ## Authentication-portal
 
-A simple react form for validating email and password which is implemented by the use of React state hooks. The site is live at: https://arkorede.github.io/authentication-portal/.
+A simple react form for validating email and password which is implemented by the use of React state hooks. The site is live at: https://authentication-portal.netlify.app/.
 
 ### Login details
 
