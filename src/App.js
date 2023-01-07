@@ -12,7 +12,7 @@ function App() {
 
   const handleValidate = (e) => {
     e.preventDefault()
-    if (user === 'reactjs12@gmail.com' && pass === 123456) {
+    if (user === 'reactjs12@gmail.com' && pass === 'love') {
       swal('Succesful login', 'Welcome ReactJS', 'success')
     } else {
       swal("Wrong Credentials", "Please try again", "error")
