@@ -12,7 +12,7 @@ function App() {
 
   const handleValidate = (e) => {
     e.preventDefault()
-    if (user == 'reactjs12@gmail.com' && pass == 123456) {
+    if (user === 'reactjs12@gmail.com' && pass === 123456) {
       swal('Succesful login', 'Welcome ReactJS', 'success')
     } else {
       swal("Wrong Credentials", "Please try again", "error")
@@ -24,7 +24,7 @@ function App() {
       <h1>Authentication Portal</h1>
       <div className='row'>
         <div className='col-md-6'>
-          <img className='float-end' src={login} width="600" />
+          <img className='float-end' src={login} width="600" alt="Someone with a key" />
         </div>
         <div className='col-md-6 my-auto bg-dark p-5 rounded'>
           <form onSubmit={handleValidate}>
